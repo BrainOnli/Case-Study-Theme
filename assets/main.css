@@ -1,0 +1,80 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# General
+# Case Study
+# Home page
+--------------------------------------------------------------*/
+/*** General ***/
+a {
+    color: #0c0c0c;
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+.content {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.hide {
+    display: none;
+}
+.type-case {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    border: none;
+    background: transparent;
+}
+.current-item {
+    padding: 3px 19px;
+    background: #EEC536;
+}
+
+/*** Case Study ***/
+.case-study {
+    width: calc(50% - 35px);
+}
+.case-study:nth-child(odd) {
+    margin: 0 35px 115px 0;
+}
+.case-image-wrap img {
+    width: 100%;
+}
+.case-study-type p {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #37474F;
+}
+.case-study-title h1 {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #37474F;
+}
+.case-study-link a {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #37474F;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-color: #EEC536;
+}
+/*** Home Page ***/
+.home-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
